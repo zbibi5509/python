@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crumbelle | A Little Bakery</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+
+            <a href="/" class="logo">
+                Crumbelle<span>.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-button">Order Treats ♡</a>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-heading">
+                FRESHLY BAKED WITH LOVE
+            </p>
+
+            <h1>
+                A little sweetness<br>
+                <span>in every bite.</span>
+            </h1>
+
+            <p class="hero-description">
+                Handcrafted cakes, cupcakes and delightful treats
+                made to turn your ordinary days into sweet memories.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="primary-button">
+                    Explore Our Menu
+                </a>
+
+                <a href="#about" class="secondary-button">
+                    Our Story
+                </a>
+
+            </div>
+
+            <div class="hero-note">
+                ♡ Baked fresh daily • Made with love
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                alt="Beautiful pink bakery cake"
+            >
+
+            <div class="floating-card">
+                <span>♡</span>
+                <p>Made with love</p>
+                <small>For your sweetest moments</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section class="categories" id="menu">
+
+        <div class="section-heading">
+
+            <p class="small-heading">OUR LITTLE WORLD</p>
+
+            <h2>Something sweet for everyone</h2>
+
+            <p>
+                Discover your new favourite treat from our little bakery.
+            </p>
+
+        </div>
+
+
+        <div class="category-grid">
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=600&q=85"
+                    alt="Cupcakes"
+                >
+
+                <h3>Cupcakes</h3>
+
+                <p>Little treats, big happiness.</p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=85"
+                    alt="Cakes"
+                >
+
+                <h3>Dreamy Cakes</h3>
+
+                <p>Made for your special moments.</p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=85"
+                    alt="Chocolate brownies"
+                >
+
+                <h3>Brownies</h3>
+
+                <p>Rich, fudgy and irresistible.</p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=85"
+                    alt="Cookies"
+                >
+
+                <h3>Cookies</h3>
+
+                <p>Freshly baked happiness.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Special Products -->
+    <section class="special-section">
+
+        <div class="section-heading">
+
+            <p class="small-heading">CUSTOMER FAVOURITES</p>
+
+            <h2>Sweet little bestsellers</h2>
+
+        </div>
+
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=600&q=85"
+                    alt="Strawberry cupcakes"
+                >
+
+                <div class="product-info">
+
+                    <h3>Strawberry Dream Cupcakes</h3>
+
+                    <p>Soft vanilla cake with strawberry cream.</p>
+
+                    <div class="product-bottom">
+                        <span>Rs. 450</span>
+                        <button>♡</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=85"
+                    alt="Chocolate cake"
+                >
+
+                <div class="product-info">
+
+                    <h3>Velvet Rose Cake</h3>
+
+                    <p>Our signature soft and creamy cake.</p>
+
+                    <div class="product-bottom">
+                        <span>Rs. 2,500</span>
+                        <button>♡</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=85"
+                    alt="Chocolate brownies"
+                >
+
+                <div class="product-info">
+
+                    <h3>Midnight Brownies</h3>
+
+                    <p>Dark chocolate, fudgy and gooey.</p>
+
+                    <div class="product-bottom">
+                        <span>Rs. 350</span>
+                        <button>♡</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?auto=format&fit=crop&w=900&q=85"
+                alt="Fresh bakery desserts"
+            >
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="small-heading">A STORY MADE OF SUGAR & LOVE</p>
+
+            <h2>Not just desserts,<br>little moments of joy.</h2>
+
+            <p>
+                At Crumbelle, we believe every celebration deserves
+                something sweet. From our first cupcake to our
+                handcrafted cakes, every treat is made with care,
+                love and the finest ingredients.
+            </p>
+
+            <p>
+                Because happiness tastes a little sweeter when
+                it comes from the heart.
+            </p>
+
+            <a href="#contact" class="primary-button">
+                Get in Touch
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <p class="small-heading">LET'S MAKE YOUR DAY SWEETER</p>
+
+        <h2>Have a sweet idea?</h2>
+
+        <p>
+            Custom cakes, special occasions or just a little treat.
+            We would love to hear from you!
+        </p>
+
+        <a href="mailto:crumbelle@example.com" class="primary-button">
+            Contact Our Bakery ♡
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            Crumbelle<span>.</span>
+        </div>
+
+        <p>Made with love, baked with magic. ♡</p>
+
+        <p class="copyright">
+            © 2026 Crumbelle Bakery. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
